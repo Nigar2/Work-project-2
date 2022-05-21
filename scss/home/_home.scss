@@ -1,0 +1,83 @@
+#Navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: 3%;
+     
+    .headnav{
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+    .middlenav >ul{
+        display: flex;
+        >li{
+            width: 33%;
+            padding: 0 10px;
+            list-style: none;
+        >a{
+            text-decoration: none;
+            color: $textcolor;
+            font-weight: 600;
+            font-size: 19px;
+            transition: .3s;
+            &:hover{
+                color: pink;
+                text-decoration:underline;
+            }
+
+        }    
+        }
+   
+}
+}
+
+.page{
+    opacity: 0.5;
+    cursor: pointer;
+    margin:  3%;
+}
+.shop{
+    text-align: center;
+    font-size: 30px;
+}
+
+.mainnav{
+    width: 91%;
+    margin: 0 5%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+.middlenav2{
+    width: 45%;
+    >ul{
+    display: flex;
+    >li{
+        padding: 0 20px;
+        list-style: none;
+        >a{
+            text-decoration: none;
+            color: $textcolor;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }   
+}
+}
+.selectp{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    p{
+        font-size: 20px;
+    }  
+}
+    select {
+    height: 45px;
+    width: 30%;
+    padding: 0 10px; 
+  }
+}
+

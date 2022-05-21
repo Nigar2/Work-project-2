@@ -1,0 +1,115 @@
+#Navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 92%;
+  margin: 3%;
+}
+
+#Navbar .headnav {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#Navbar .middlenav > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Navbar .middlenav > ul > li {
+  width: 33%;
+  padding: 0 10px;
+  list-style: none;
+}
+
+#Navbar .middlenav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 19px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#Navbar .middlenav > ul > li > a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+.page {
+  opacity: 0.5;
+  cursor: pointer;
+  margin: 3%;
+}
+
+.shop {
+  text-align: center;
+  font-size: 30px;
+}
+
+.mainnav {
+  width: 91%;
+  margin: 0 5%;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainnav .middlenav2 {
+  width: 45%;
+}
+
+.mainnav .middlenav2 > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainnav .middlenav2 > ul > li {
+  padding: 0 20px;
+  list-style: none;
+}
+
+.mainnav .middlenav2 > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.mainnav .selectp {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mainnav .selectp p {
+  font-size: 20px;
+}
+
+.mainnav select {
+  height: 45px;
+  width: 30%;
+  padding: 0 10px;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0%;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
